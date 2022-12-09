@@ -39,7 +39,7 @@ public class LoginPage {
 	}
 	
 	//valid login method
-	public void validLoginTOActiTime(String validUsername, String validPassword)
+	public void validLoginToActiTime(String validUsername, String validPassword)
 	{
 		usn.sendKeys(validUsername);
 		pass.sendKeys(validPassword);
@@ -48,7 +48,7 @@ public class LoginPage {
 	
 	//invalid login method
 	
-	public void invalidLoginTOActiTime(String username, String password) throws InterruptedException
+	public void invalidLoginToActiTime(String username, String password) throws InterruptedException
 	{
 		usn.sendKeys(username);
 		pass.sendKeys(password);

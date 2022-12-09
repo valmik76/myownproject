@@ -1,69 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-27T12:49:18 IST" name="Default suite" finished-at="2022-11-27T12:49:42 IST" duration-ms="23940">
+  <suite started-at="2022-12-08T20:08:44 IST" name="Suite" finished-at="2022-12-08T20:08:56 IST" duration-ms="11646">
     <groups>
     </groups>
-    <test started-at="2022-11-27T12:49:18 IST" name="Default test" finished-at="2022-11-27T12:49:42 IST" duration-ms="23940">
-      <class name="testngAnnotations.ActitimeInvalidLogin">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:18 IST" name="setUp" finished-at="2022-11-27T12:49:23 IST" duration-ms="5035" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:23 IST" name="testInvalidLogin" data-provider="dataProviderActitime" finished-at="2022-11-27T12:49:24 IST" duration-ms="332" status="PASS">
+    <test started-at="2022-12-08T20:08:44 IST" name="ChromeRunner" finished-at="2022-12-08T20:08:51 IST" duration-ms="6383">
+      <class name="testngParallelExecution.Actitime">
+        <test-method signature="loginToActitime(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testngParallelExecution.Actitime@55536d9e]" started-at="2022-12-08T20:08:44 IST" name="loginToActitime" finished-at="2022-12-08T20:08:51 IST" duration-ms="6304" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[manager123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:24 IST" name="tearDown" finished-at="2022-11-27T12:49:24 IST" duration-ms="686" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:24 IST" name="setUp" finished-at="2022-11-27T12:49:28 IST" duration-ms="3492" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:28 IST" name="testInvalidLogin" data-provider="dataProviderActitime" finished-at="2022-11-27T12:49:28 IST" duration-ms="262" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin1223]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:28 IST" name="tearDown" finished-at="2022-11-27T12:49:29 IST" duration-ms="639" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:29 IST" name="setUp" finished-at="2022-11-27T12:49:33 IST" duration-ms="3689" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:33 IST" name="testInvalidLogin" data-provider="dataProviderActitime" finished-at="2022-11-27T12:49:33 IST" duration-ms="283" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[123manger]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -71,63 +19,41 @@
                 <![CDATA[admin]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:33 IST" name="tearDown" finished-at="2022-11-27T12:49:33 IST" duration-ms="669" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:33 IST" name="setUp" finished-at="2022-11-27T12:49:37 IST" duration-ms="3330" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:37 IST" name="testInvalidLogin" data-provider="dataProviderActitime" finished-at="2022-11-27T12:49:37 IST" duration-ms="279" status="PASS">
+        </test-method> <!-- loginToActitime -->
+      </class> <!-- testngParallelExecution.Actitime -->
+    </test> <!-- ChromeRunner -->
+    <test started-at="2022-12-08T20:08:44 IST" name="FirefoxRunner" finished-at="2022-12-08T20:08:56 IST" duration-ms="11646">
+      <class name="testngParallelExecution.Actitime">
+        <test-method signature="loginToActitime(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testngParallelExecution.Actitime@78123e82]" started-at="2022-12-08T20:08:44 IST" name="loginToActitime" finished-at="2022-12-08T20:08:56 IST" duration-ms="11584" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1234]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[manage]]>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manager]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:37 IST" name="tearDown" finished-at="2022-11-27T12:49:38 IST" duration-ms="666" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:38 IST" name="setUp" finished-at="2022-11-27T12:49:41 IST" duration-ms="3523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:41 IST" name="testInvalidLogin" data-provider="dataProviderActitime" finished-at="2022-11-27T12:49:42 IST" duration-ms="270" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin12]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngAnnotations.ActitimeInvalidLogin@120f102b]" started-at="2022-11-27T12:49:42 IST" name="tearDown" finished-at="2022-11-27T12:49:42 IST" duration-ms="694" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testngAnnotations.ActitimeInvalidLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- loginToActitime -->
+      </class> <!-- testngParallelExecution.Actitime -->
+    </test> <!-- FirefoxRunner -->
+  </suite> <!-- Suite -->
 </testng-results>

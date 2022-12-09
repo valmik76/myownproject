@@ -7,7 +7,7 @@
    <parameter name="Vpassword" value="manager"></parameter>
  
   <classes>
-   <class name="testngFlag.ActitimeLogin"></class>
+   <class name="testng.ActitimeLogin"></class>
   </classes>
   </test> <!-- Test -->
   
@@ -17,7 +17,7 @@
    <parameter name="Vpassword" value="manager"></parameter>
  
   <classes>
-   <class name="testngFlag.ActitimeLogin"></class>
+   <class name="testng.ActitimeLogin"></class>
   </classes>
   
   </test> <!-- Test -->

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngAnnotations.ActitimeInvalidLogin">
+      <class name="testng.ActitimeLogin">
         <methods>
-          <include name="testInvalidLogin"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="loginToActitime"/>
         </methods>
-      </class> <!-- testngAnnotations.ActitimeInvalidLogin -->
+      </class> <!-- testng.ActitimeLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

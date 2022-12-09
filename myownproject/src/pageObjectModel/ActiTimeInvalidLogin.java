@@ -15,7 +15,7 @@ public class ActiTimeInvalidLogin extends BaseTest {
 		for (int i = 1; i <= rc; i++) {
 			String invalidusername = flib.readExcelData(EXCEL_PATH, "invaliddata", i, 0);
 			String invalidpassword = flib.readExcelData(EXCEL_PATH, "invaliddata", i, 1);
-			lp.invalidLoginTOActiTime(invalidusername, invalidpassword);
+			lp.invalidLoginToActiTime(invalidusername, invalidpassword);
 		} 
 
 		bt.tearDown();

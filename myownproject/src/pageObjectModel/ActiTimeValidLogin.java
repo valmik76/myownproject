@@ -12,7 +12,7 @@ public class ActiTimeValidLogin extends BaseTest {
 	    Flib flip = new Flib();
 	    String validusername = flip.readPropertyData(PROP_PATH, "username");
 	    String validpassword = flip.readPropertyData(PROP_PATH, "password");
-		lp.validLoginTOActiTime(validusername, validpassword);
+		lp.validLoginToActiTime(validusername, validpassword);
 		
 	}
 
